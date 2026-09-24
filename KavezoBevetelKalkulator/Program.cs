@@ -12,7 +12,7 @@ Console.WriteLine("========================================");
 Console.WriteLine("Rögzített napi bevételek:");
 for (int i = 0; i < 5; i++)
 {
-    Console.WriteLine($"\t {i + 1}.nap {bevetel[i]} Ft");
+    Console.WriteLine($"\t- {i + 1}.nap {bevetel[i]} Ft");
 }
 //3.feladat
 int osszeg = 0;
