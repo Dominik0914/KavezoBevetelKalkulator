@@ -16,3 +16,18 @@ for (int i = 0; i < 5; i++)
 double atlag = osszeg / 5.0;
 Console.WriteLine($"Összesített bevétel: {osszeg} Ft");
 Console.WriteLine($"Napi átlagbevétel: {atlag:F2} Ft");
+//4.feladat
+string status;
+if (atlag >= 80000)
+{
+    status="kiemelkedő hét";
+}
+else if (atlag >= 50000)
+{
+    status = "Átlagos hét";
+}
+else
+{
+    status = "Gyenge hét,felülviszgálat szükséges";
+}
+Console.WriteLine($"Heti státusz {status}");
